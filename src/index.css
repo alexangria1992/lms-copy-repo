@@ -6,41 +6,13 @@
   --color-red: #f91c85;
   --color-grey: #00000029;
   --color-light-gray: #f0efef;
-  --color-dark-blue: #43c0f6;
+  --color-header-blue: #43c0f6;
   --color-dark-gray: #707070;
   --color-light-blue: #88dbff;
   --color-primary-blue: #42c0f6;
   --color-bg: #fff;
   --color-footer: #b2e4fa;
   --color-cta: #efeff1;
-}
-
-.scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
-  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-}
-
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
 }
 
 a {

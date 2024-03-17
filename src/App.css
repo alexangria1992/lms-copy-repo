@@ -24,6 +24,10 @@ body {
   margin: 4rem 6rem;
 }
 
+li {
+  list-style: none;
+}
+
 //laptop Sizes
 
 /* @media screen and (max-width: 1024px) {
